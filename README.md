@@ -18,27 +18,56 @@ git clone https://github.com/FlorianBx/ng-angular-structure-cli.git
 ```
 
 ### MacOS Setup
+<details open>
+<summary>BASH & ZSH</summary>
+
 1. Add alias to your shell config (~/.zshrc or ~/.bashrc):
 ```bash
+mkdir -p ~/bin
+cp ng-struct.sh ~/bin/ng-struct.sh
+chmod +x ~/bin/ng-struct.sh
 echo 'alias ng-struct="~/path/to/ng-angular-structure-cli/create-structure.sh"' >> ~/.zshrc
 ```
 2. Reload your shell config:
 ```bash
 source ~/.zshrc
 ```
+</details>
 
-### Linux Setup
-1. Add alias to ~/.bashrc:
+<details>
+<summary>FISH</summary>
+1. Add alias to your shell config (config.fish):
 ```bash
-echo 'alias ng-struct="~/path/to/ng-angular-structure-cli/create-structure.sh"' >> ~/.bashrc
+mkdir -p ~/bin
+cp ng-struct.sh ~/bin/ng-struct.sh
+chmod +x ~/bin/ng-struct.sh
+echo 'alias ng-struct="~/bin/ng-struct.sh"' >> ~/.config/fish/config.fish
 ```
-2. Reload bashrc:
+
+2. Reload your shell config:
 ```bash
-source ~/.bashrc
+source ~/.zshrc
 ```
+
+</details>
 
 ### Windows Setup
-Open to contributions!
+*Open to contributions!*
+<details>
+<summary>BASH & ZSH</summary>
+
+1. Add alias to your shell config (~/.zshrc or ~/.bashrc):
+```bash
+mkdir -p ~/bin
+cp ng-struct.sh ~/bin/ng-struct.sh
+chmod +x ~/bin/ng-struct.sh
+echo 'alias ng-struct="~/path/to/ng-angular-structure-cli/create-structure.sh"' >> ~/.zshrc
+```
+2. Reload your shell config:
+```bash
+source ~/.zshrc
+```
+</details>
 
 ## Usage
 
